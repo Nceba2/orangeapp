@@ -1,0 +1,41 @@
+/* Empty. Add your own CSS if you like */
+.body{
+background: #FC0 url(../img/images2.jpg) no-repeat !important;
+background-size: 100% 100% !important;
+}
+.menu-content .pane .menu-animated{
+background-color: #FC0 !important;
+}
+.transPanel{
+	background: linear-gradient(180deg, rgba(250, 250, 250, 0.91), rgba(250, 250, 250, 0.53) 6%, rgba(250, 250, 250, 0.01) 10%);
+	margin: 0;
+	padding: 10px;
+}
+.whitePanel{
+background: #FFC;
+margin-left: 20px;
+margin-right: 20px;
+margin-top: 15px;
+padding: 10px;
+width: 90% !important;
+box-shadow: 8px 8px 6px #000;
+height: 950px !important;
+}
+.logoTitle{
+margin-left: 20px;
+margin-right: 20px;
+-webkit-text-storke:: 5px #FC0;
+}
+.logoPart1{
+padding:1px;
+color: #FC0;
+}
+.logoPart2{
+padding:1px;
+//color: #FC0;
+font-family:"Segoe Print", "Segoe Script";
+font-size:20px;
+}
+.whiteSpace{
+height: 100px;
+}

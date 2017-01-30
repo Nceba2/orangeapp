@@ -1,0 +1,15 @@
+<ion-modal-view class="body" ng-controller="LikeCtrl">
+  <ion-header-bar class="bar-stable bar bar-header">
+    <h1 class="title">Likes</h1>
+    <div class="buttons">
+      <button class="button button-clear" ng-click="closeLikes()">Close</button>
+    </div>
+  </ion-header-bar>
+  <ion-content class="transPanel">
+    <ul>
+    
+    <li class="whitePanel" ng-repeat="like in likes[0]">{{like.user_name}}</li>
+    
+    </ul>
+  </ion-content>
+</ion-modal-view>

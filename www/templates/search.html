@@ -1,0 +1,24 @@
+<ion-view view-title="Other News" class="body">
+  <ion-content class="transPanel">
+    <!-- 
+    <div class="whitePanel" ng-repeat="article in articles2[0]">
+    <h1>{{article.title}}</h1>
+    <center><img width="80%" height="150px"/></center>
+    <p>{{article.story}}</p>
+
+      <p align="right" style="font-family:'Segoe Print', 'Segoe Script'"><a ng-click="likes({{article.article_no}})">4</a> like &nbsp;&nbsp; <a ng-click="comments('{{article.article_no}}')" id="comments">12</a> comment</p>
+    </div> -->
+    
+    <ul>
+    <li class="whitePanel" ng-repeat="article in articles1[0]">
+    <h1>{{article.title}}</h1>
+
+    <center><img width="80%" src="http://nsportal.freevar.com/images/apps/central_service1.JPG"height="150px"/></center>
+      <p>
+        {{article.story}}
+      </p>
+      <p align="right" style="font-family:'Segoe Print', 'Segoe Script'"><a ng-click="likes({{article.article_no}})">4</a> like &nbsp;&nbsp; <a ng-click="comments('{{article.article_no}}')" id="comments">12</a> comment</p>
+    </li>
+    </ul>
+  </ion-content>
+</ion-view>

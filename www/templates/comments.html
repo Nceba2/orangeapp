@@ -1,0 +1,25 @@
+<ion-modal-view class="body" ng-controller="CommentCtrl">
+  <ion-header-bar class="bar-stable bar bar-header">
+    <h1 class="title">Comments</h1>
+    <div class="buttons">
+      <button class="button button-clear" ng-click="closeComments()">Close</button>
+    </div>
+  </ion-header-bar>
+  <ion-content class="transPanel">
+    <ul>
+    
+    <li class="whitePanel" ng-repeat="comment in comments[0]">
+    {{comment.user_name}}
+    <p>
+    {{comment.comment}}
+    </p></li>
+    
+    
+    <!-- comment box -->
+    <form class="whitePanel">
+    <textarea cols="44" rows="5" placeholder="comment..."></textarea>
+    <input type="submit" class="button button-block button-positive" name="submit" value="Comment" >
+    </form>
+    </ul>
+  </ion-content>
+</ion-modal-view>

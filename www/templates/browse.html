@@ -1,0 +1,15 @@
+<ion-view view-title="General News" ng-controller="ArticleCtrl" class="body">
+  <ion-content class="transPanel">
+  <ul>
+    <li class="whitePanel" ng-repeat="article in articles[0]">
+    <h1>{{article.title}}</h1>
+      <p>
+        {{article.story}}
+      </p>
+      <p align="right" style="font-family:'Segoe Print', 'Segoe Script'"><a ng-click="likes()">4</a> like &nbsp;&nbsp; <a ng-click="comments('{{article.article_no}}')" id="comments" onclick="me(50)">12</a> comment</p>
+    </li>
+    </ul>
+
+    <div class="whiteSpace"></div>
+  </ion-content>
+</ion-view>
